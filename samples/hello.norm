@@ -1,0 +1,16 @@
+import guava.core.Joiner
+import guava.core.Splitter
+import guava.core.joinerOn
+import guava.core.splitterOn
+import std.collections.IterableView
+
+main() {
+  Splitter splitter = splitterOn(",")!!
+  Joiner joiner = joinerOn(" | ")!!
+  IterableView<String?> tags = splitter.trimResults()!!.omitEmptyStrings()!!.split("Norm, , Java")!!
+  printLine(joiner.join(tags)!!)
+}
+
+Module module() {
+  module(dependencies: [dependency(repository: "github", name: "guava.core", version: 2)])
+}

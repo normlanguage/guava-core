@@ -1,7 +1,7 @@
 Module module() {
   return module(
     name: "guava.core",
-    version: 1,
+    version: 2,
     binding: jarBinding(
       target: mavenJar(
         group: "com.google.guava",
