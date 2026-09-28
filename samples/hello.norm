@@ -12,5 +12,5 @@ main() {
 }
 
 Module module() {
-  module(dependencies: [dependency(repository: "github", name: "guava.core", version: 2)])
+  module(dependencies: [dependency(repository: "github", name: "guava.core", version: 3)])
 }

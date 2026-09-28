@@ -1,4 +1,14 @@
-package guava.core
+package sample.guava.core
+
+import guava.core.stringsPadStart
+import guava.core.Splitter
+import guava.core.splitterOn
+import guava.core.Joiner
+import guava.core.joinerOn
+import guava.core.ImmutableMap
+import guava.core.immutableMapOf
+import guava.core.ArrayListMultimap
+import guava.core.arrayListMultimapCreate
 
 import std.collections.IterableView
 

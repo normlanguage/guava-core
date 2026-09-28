@@ -18,4 +18,4 @@ norm run samples/hello.norm
 Norm | Java
 ```
 
-API 入口：[module.norm](../guava/core/module.norm) 列出公开的 `Splitter` 和 `Joiner`。`Main.norm` 仍是该适配器自身的集成入口。
+API 入口：[module.norm](../guava/core/module.norm) 列出公开的 `Splitter` 和 `Joiner`。[适配器验收示例](../examples/sample/guava/core/Main.norm)覆盖更多绑定行为。

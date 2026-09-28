@@ -18,4 +18,4 @@ Expected output:
 Norm | Java
 ```
 
-API reference: [module.norm](../guava/core/module.norm) lists the exposed `Splitter` and `Joiner`. The module's `Main.norm` remains its own adapter integration entry point.
+API reference: [module.norm](../guava/core/module.norm) lists the exposed `Splitter` and `Joiner`. The [adapter acceptance example](../examples/sample/guava/core/Main.norm) exercises additional binding behavior.
