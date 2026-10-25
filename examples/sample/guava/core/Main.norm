@@ -10,21 +10,9 @@ import guava.core.immutableMapOf
 import guava.core.ArrayListMultimap
 import guava.core.arrayListMultimapCreate
 
-import std.collections.IterableView
-
 Void main() {
   printLine(stringsPadStart(arg0: "7", arg1: 3, arg2: '0') ?? "")
-
-  Splitter? splitter = splitterOn(",")
-  Joiner? joiner = joinerOn("|")
-  if splitter != null && joiner != null {
-    IterableView<String?>? values = splitter.trimResults()?.omitEmptyStrings()?.split("Norm, ,NAR")
-    if values != null {
-      printLine(joiner.join(values) ?? "")
-    }
-  }
-
-  ImmutableMap<String?, Integer?>? lengths =
+`r`n  ImmutableMap<String?, Integer?>? lengths =
     immutableMapOf<String, Integer>(arg0: "Norm", arg1: 4, arg2: "Java", arg3: 4)
   if lengths != null {
     printLine(lengths.get("Norm") ?? 0)
@@ -37,3 +25,4 @@ Void main() {
     printLine(groups.size())
   }
 }
+
