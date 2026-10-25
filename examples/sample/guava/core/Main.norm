@@ -13,19 +13,20 @@ import guava.core.arrayListMultimapCreate
 Void main() {
   printLine(stringsPadStart(arg0: "7", arg1: 3, arg2: '0') ?? "")
 
-  ImmutableMap<String?, Integer?>? lengths =
+  ImmutableMap<String, Integer>? lengths =
     immutableMapOf<String, Integer>(arg0: "Norm", arg1: 4, arg2: "Java", arg3: 4)
   if lengths != null {
     printLine(lengths.get("Norm") ?? 0)
   }
 
-  ArrayListMultimap<String?, Integer?>? groups = arrayListMultimapCreate<String, Integer>()
+  ArrayListMultimap<String, Integer>? groups = arrayListMultimapCreate<String, Integer>()
   if groups != null {
     groups.put(arg0: "language", arg1: 1)
     groups.put(arg0: "language", arg1: 2)
     printLine(groups.size())
   }
 }
+
 
 
 
