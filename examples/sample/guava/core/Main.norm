@@ -12,7 +12,8 @@ import guava.core.arrayListMultimapCreate
 
 Void main() {
   printLine(stringsPadStart(arg0: "7", arg1: 3, arg2: '0') ?? "")
-`r`n  ImmutableMap<String?, Integer?>? lengths =
+
+  ImmutableMap<String?, Integer?>? lengths =
     immutableMapOf<String, Integer>(arg0: "Norm", arg1: 4, arg2: "Java", arg3: 4)
   if lengths != null {
     printLine(lengths.get("Norm") ?? 0)
@@ -25,5 +26,6 @@ Void main() {
     printLine(groups.size())
   }
 }
+
 
 
