@@ -1,7 +1,7 @@
 Module module() {
   return module(
     name: "guava.core",
-    version: 3,
+    version: 4,
     exports: ["Preconditions", "Strings", "Joiner", "Splitter", "ImmutableList", "ImmutableSet", "ImmutableMap", "Multimap", "ArrayListMultimap", "Hashing", "HashFunction", "HashCode"],
     binding: jarBinding(
       target: mavenJar(
