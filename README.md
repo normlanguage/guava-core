@@ -7,3 +7,5 @@ The adapter declaration and runnable example are in `guava/core`. It pins Guava 
 `GuavaBindingIntegrationTest` covers standalone NAR consumption, the complete Maven transitive dependency graph, unbounded generics, dispatch through public interfaces after package-private parents, and CodePoint boundaries. The complete API census and reasons for unsupported APIs are in the NAR's `binding/java-api.json`.
 
 [Runnable samples](samples/README.md) demonstrate the library as an external Norm dependency.
+
+[License](LICENSE)

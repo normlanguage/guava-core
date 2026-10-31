@@ -1,6 +1,6 @@
 # guava.core Skill
 
-Use this skill to work with Norm module `guava.core` version 3. Use only declarations listed below.
+Use this skill to work with Norm module `guava.core` version 4. Use only declarations listed below.
 
 ## `guava.core`
 
